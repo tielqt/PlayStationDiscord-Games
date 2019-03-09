@@ -7,15 +7,13 @@ tmdb_key = bytearray.fromhex('F5DE66D2680E255B2DF79E74F890EBF349262F618BCAE2A9AC
 title_ids = [
     'CUSA07022_00', # Fortnite
     'CUSA05042_00', # Destiny 2
-    'CUSA11100_00', # Black Ops 4
-    'CUSA05969_00', # WWII
-    'CUSA04762_00', # Infinite Warfare
-    'CUSA03522_00', # Modern Warfare Remastered
-    'CUSA02290_00', # Black Ops 3
-    'CUSA00803_00', # Advanced Warfare
-    'CUSA00018_00', # Ghosts
     'CUSA03220_00', # Gran Turismo Sport [USA]
     'CUSA02168_00', # Gran Turismo Sport [EUR]
+    'CUSA09303_00', # AC Odyssey
+    'CUSA07708_00', # Monster Hunter
+    'CUSA00320_00', # Wolfenstein: The New Order
+    'CUSA07377_00', # Wolfenstein II
+    'CUSA06638_00', # Persona 5
 ]
 
 urls = [
@@ -25,12 +23,12 @@ urls = [
     "https://store.playstation.com/valkyrie-api/en/US/19/container/STORE-MSF77008-PSPLUSFREEGAMES?size=30&bucket=games&start=0&platform=ps4",
     # Top 50 digital only games
     "https://store.playstation.com/valkyrie-api/en/US/19/container/STORE-MSF77008-TOPPSNGAMES?size=50&bucket=games&start=0&platform=ps4",
-    # 10 newest free games
-    "https://store.playstation.com/valkyrie-api/en/US/19/container/STORE-MSF77008-GAMESFREETOPLAY?sort=release_date&direction=desc&size=10&bucket=games&start=0&platform=ps4",
-    # Newest games this month
-    "https://store.playstation.com/valkyrie-api/en/US/19/container/STORE-MSF77008-NEWTHISMONTH?game_content_type=games&size=100&bucket=games&start=0&platform=ps4",
-    # Coming soon
-    "https://store.playstation.com/valkyrie-api/en/US/19/container/STORE-MSF77008-PS3PSNPREORDERS?gameContentType=games&gameType=ps4_full_games%2Cpsn_games&releaseDate=coming_soon%2Clast_30_days&platform=ps4"
+    # # 10 newest free games
+    # "https://store.playstation.com/valkyrie-api/en/US/19/container/STORE-MSF77008-GAMESFREETOPLAY?sort=release_date&direction=desc&size=10&bucket=games&start=0&platform=ps4",
+    # # Newest games this month
+    # "https://store.playstation.com/valkyrie-api/en/US/19/container/STORE-MSF77008-NEWTHISMONTH?game_content_type=games&size=100&bucket=games&start=0&platform=ps4",
+    # # Coming soon
+    # "https://store.playstation.com/valkyrie-api/en/US/19/container/STORE-MSF77008-PS3PSNPREORDERS?gameContentType=games&gameType=ps4_full_games%2Cpsn_games&releaseDate=coming_soon%2Clast_30_days&platform=ps4"
 ]
 
 done = {"ps4": []}
